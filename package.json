@@ -1,0 +1,21 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "ts-lint": "eslint . --ext .ts",
+    "ts-validate": "tsc --noEmit",
+    "validate": "npm-run-all --parallel ts-lint ts-validate"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.8.3"
+  }
+}
