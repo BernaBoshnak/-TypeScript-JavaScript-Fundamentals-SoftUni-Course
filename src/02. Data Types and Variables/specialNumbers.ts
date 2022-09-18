@@ -1,7 +1,7 @@
 function specialNumbers(number: number) {
-  const currentNumber = number;
+  const currentNum = number;
 
-  for (let i = 1; i <= currentNumber; i++) {
+  for (let i = 1; i <= currentNum; i++) {
     let digit = i;
     let sum = 0;
 
