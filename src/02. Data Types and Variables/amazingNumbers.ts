@@ -3,8 +3,7 @@ function amazingNumbers(number: number) {
   let sum = 0;
 
   while (currentNumber > 0) {
-    const digit = currentNumber % 10;
-    sum += digit;
+    sum += currentNumber % 10;
     currentNumber = Math.trunc(currentNumber / 10);
   }
 
