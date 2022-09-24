@@ -27,3 +27,5 @@ function orders(product: Product, count: number) {
 
 console.log(orders("water", 5));
 console.log(orders("coffee", 2));
+
+export {};

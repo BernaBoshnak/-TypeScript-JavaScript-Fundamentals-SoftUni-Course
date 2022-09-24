@@ -8,3 +8,5 @@ function fuelMoney(distance: number, passengers: number, price: number) {
 
 fuelMoney(260, 9, 2.49);
 fuelMoney(90, 14, 2.88);
+
+export {};

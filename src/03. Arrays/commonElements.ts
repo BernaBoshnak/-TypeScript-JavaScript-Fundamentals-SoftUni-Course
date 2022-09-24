@@ -10,3 +10,5 @@ commonElements(
   ["S", "o", "f", "t", "U", "n", "i", " "],
   ["s", "o", "c", "i", "a", "l"]
 );
+
+export {};

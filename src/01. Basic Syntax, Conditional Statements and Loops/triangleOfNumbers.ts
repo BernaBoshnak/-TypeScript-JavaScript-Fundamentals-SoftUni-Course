@@ -7,3 +7,5 @@ function triangleOfNumbers(number: number) {
 triangleOfNumbers(3);
 triangleOfNumbers(5);
 triangleOfNumbers(6);
+
+export {};

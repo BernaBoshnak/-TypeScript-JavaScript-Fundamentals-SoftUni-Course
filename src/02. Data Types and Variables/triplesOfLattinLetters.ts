@@ -17,3 +17,5 @@ function triplesOfLattinLetters(num: number) {
 }
 
 triplesOfLattinLetters(3);
+
+export {};

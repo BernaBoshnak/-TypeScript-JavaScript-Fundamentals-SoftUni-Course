@@ -4,3 +4,5 @@ function convertMToKm(num: number) {
 
 console.log(convertMToKm(1852));
 console.log(convertMToKm(798));
+
+export {};

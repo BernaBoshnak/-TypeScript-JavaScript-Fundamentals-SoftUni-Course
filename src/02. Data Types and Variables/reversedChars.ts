@@ -9,3 +9,5 @@ function reversedChars(
 
 reversedChars("A", "B", "C");
 reversedChars("1", "L", "&");
+
+export {};

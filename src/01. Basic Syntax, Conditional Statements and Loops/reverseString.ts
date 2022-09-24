@@ -6,3 +6,5 @@ function reverseString(input: string) {
 reverseString("Hello");
 reverseString("SoftUni");
 reverseString("1234");
+
+export {};

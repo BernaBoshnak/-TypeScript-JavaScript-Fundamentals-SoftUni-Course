@@ -20,3 +20,5 @@ division(30, resultPhrase);
 division(15, resultPhrase);
 division(12, resultPhrase);
 division(1643, resultPhrase);
+
+export {};

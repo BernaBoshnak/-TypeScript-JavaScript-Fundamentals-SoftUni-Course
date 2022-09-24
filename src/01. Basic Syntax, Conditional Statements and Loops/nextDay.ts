@@ -70,3 +70,5 @@ nextDay(2016, 9, 30);
 nextDay(2022, 1, 17);
 nextDay(2015, 2, 29);
 nextDay(2020, 2, 29);
+
+export {};

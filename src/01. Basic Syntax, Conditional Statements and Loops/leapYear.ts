@@ -7,3 +7,5 @@ function leapYear(year: number) {
 leapYear(1984);
 leapYear(2003);
 leapYear(4);
+
+export {};

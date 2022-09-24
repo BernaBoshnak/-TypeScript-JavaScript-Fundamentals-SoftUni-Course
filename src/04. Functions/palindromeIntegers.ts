@@ -19,3 +19,5 @@ function palindromeIntegers(array: number[]) {
 
 palindromeIntegers([123, 323, 421, 121]);
 palindromeIntegers([32, 2, 232, 1010]);
+
+export {};

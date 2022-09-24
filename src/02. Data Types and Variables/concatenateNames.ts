@@ -9,3 +9,5 @@ function concatenateNames(
 concatenateNames("John", "Smith", "->");
 concatenateNames("Jan", "White", "<->");
 concatenateNames("Linda", "Terry", "=>");
+
+export {};

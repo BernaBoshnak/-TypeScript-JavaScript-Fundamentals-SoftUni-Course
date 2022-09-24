@@ -16,3 +16,5 @@ function specialNumbers(number: number) {
 
 specialNumbers(15);
 specialNumbers(24);
+
+export {};

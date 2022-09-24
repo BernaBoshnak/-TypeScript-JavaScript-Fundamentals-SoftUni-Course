@@ -15,3 +15,5 @@ function grades(grade: number) {
 console.log(grades(3.33));
 console.log(grades(4.5));
 console.log(grades(2.99));
+
+export {};

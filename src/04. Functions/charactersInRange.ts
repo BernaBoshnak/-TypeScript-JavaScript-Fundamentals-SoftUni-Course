@@ -18,3 +18,5 @@ function charactersInRange(start: string, end: string) {
 console.log(charactersInRange('a', 'd'));
 console.log(charactersInRange('#', ':'));
 console.log(charactersInRange('C', '#'));
+
+export {};

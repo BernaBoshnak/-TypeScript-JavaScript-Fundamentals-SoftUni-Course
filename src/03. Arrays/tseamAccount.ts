@@ -66,3 +66,5 @@ tseamAccount([
   "Expansion Civ-V",
   "Play!",
 ]);
+
+export {};

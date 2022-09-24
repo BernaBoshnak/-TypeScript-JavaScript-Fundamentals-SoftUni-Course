@@ -36,3 +36,5 @@ function lowerOrUpper(letter: LowerLetter | UpperLetter) {
 
 lowerOrUpper("L");
 lowerOrUpper("f");
+
+export {};

@@ -6,3 +6,5 @@ function multiplicationTable(number: number) {
 
 multiplicationTable(5);
 multiplicationTable(2);
+
+export {};

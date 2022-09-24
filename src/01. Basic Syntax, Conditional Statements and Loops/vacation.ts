@@ -62,3 +62,5 @@ function vacation(group: number, typeOfGroup: Group, dayOfWeek: DayOfWeek) {
 
 vacation(30, "Business", "Sunday");
 vacation(40, "Regular", "Saturday");
+
+export {};

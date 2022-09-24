@@ -13,3 +13,5 @@ function printAndSum(start: number, end: number) {
 printAndSum(5, 10);
 printAndSum(0, 26);
 printAndSum(50, 60);
+
+export {};

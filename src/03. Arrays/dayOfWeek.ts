@@ -27,3 +27,5 @@ function dayOfWeek(day: Day) {
 
 dayOfWeek(3);
 dayOfWeek(6);
+
+export {};

@@ -9,3 +9,5 @@ function mathPower(num: number, power: number) {
 
 console.log(mathPower(2, 8));
 console.log(mathPower(3, 4));
+
+export {};

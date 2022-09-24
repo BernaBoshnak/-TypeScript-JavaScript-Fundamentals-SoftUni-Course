@@ -19,3 +19,5 @@ function printDNA(number: number) {
 
 printDNA(4);
 printDNA(10);
+
+export {};

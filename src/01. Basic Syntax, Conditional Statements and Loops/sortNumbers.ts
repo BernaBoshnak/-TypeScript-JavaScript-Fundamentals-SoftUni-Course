@@ -6,3 +6,5 @@ function sortNumbers(num: number[]) {
 sortNumbers([2, 1, 3]);
 sortNumbers([-2, 1, 3]);
 sortNumbers([0, 0, 2]);
+
+export {};

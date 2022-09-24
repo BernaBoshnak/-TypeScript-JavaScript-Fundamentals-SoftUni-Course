@@ -15,3 +15,5 @@ function factorialDivision(firstNum: number, secondNum: number) {
 
 factorialDivision(5, 2);
 factorialDivision(6, 2);
+
+export {};

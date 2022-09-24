@@ -13,3 +13,5 @@ function printElement(array: string[]) {
 printElement(["5", "20", "31", "4", "20", "2"]);
 printElement(["dsa", "asd", "test", "test", "2"]);
 printElement(["1", "2", "3", "4", "5", "6"]);
+
+export {};

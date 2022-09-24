@@ -7,3 +7,5 @@ function rounding(a: number, rounder: number) {
 
 rounding(3.141592653589793, 2);
 rounding(10.5, 3);
+
+export {};

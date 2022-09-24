@@ -11,3 +11,5 @@ function integerAndFloat(
 
 integerAndFloat(9, 100, 1.1);
 integerAndFloat(100, 200, 303);
+
+export {};

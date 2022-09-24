@@ -14,3 +14,5 @@ function nxnMatrix(number: number) {
 nxnMatrix(3);
 nxnMatrix(7);
 nxnMatrix(2);
+
+export {};

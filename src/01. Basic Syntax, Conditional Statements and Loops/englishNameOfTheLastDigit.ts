@@ -32,3 +32,5 @@ function englishNameOfTheLastDigit(number: number) {
 console.log(englishNameOfTheLastDigit(512));
 console.log(englishNameOfTheLastDigit(1));
 console.log(englishNameOfTheLastDigit(1643));
+
+export {};

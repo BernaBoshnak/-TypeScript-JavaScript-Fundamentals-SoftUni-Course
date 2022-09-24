@@ -7,3 +7,5 @@ function gramophone(bandName: string, albumName: string, songName: string) {
 
 gramophone("Black Sabbath", "Paranoid", "War Pigs");
 gramophone("Rammstein", "Sehnsucht", "Engel");
+
+export {};

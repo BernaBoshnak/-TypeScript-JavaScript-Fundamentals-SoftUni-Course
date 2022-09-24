@@ -14,3 +14,5 @@ function amazingNumbers(number: number) {
 
 amazingNumbers(1233);
 amazingNumbers(999);
+
+export {};

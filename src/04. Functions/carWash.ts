@@ -37,3 +37,5 @@ function carWash(array: CommandsArray) {
 console.log(
   carWash(["soap", "soap", "vacuum cleaner", "mud", "soap", "water"])
 );
+
+export {};

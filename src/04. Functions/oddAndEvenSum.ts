@@ -17,3 +17,5 @@ function oddAndEvenSum(number: number) {
 
 console.log(oddAndEvenSum(1000435));
 console.log(oddAndEvenSum(3495892137259234));
+
+export {};

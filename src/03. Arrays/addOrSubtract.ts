@@ -21,3 +21,5 @@ function addOrSubtract(numbersInput: number[]) {
 
 addOrSubtract([5, 15, 23, 56, 35]);
 addOrSubtract([-5, 11, 3, 0, 2]);
+
+export {};

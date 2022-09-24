@@ -5,3 +5,5 @@ function townInfo(townName: string, population: number, area: number) {
 }
 
 townInfo("Sofia", 1286383, 492);
+
+export {};

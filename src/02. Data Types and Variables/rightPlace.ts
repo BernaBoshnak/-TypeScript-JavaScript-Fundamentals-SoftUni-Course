@@ -7,3 +7,5 @@ function rightPlace(string: string, char: string, result: string) {
 
 rightPlace("Str_ng", "I", "Strong");
 rightPlace("Str_ng", "i", "String");
+
+export {};

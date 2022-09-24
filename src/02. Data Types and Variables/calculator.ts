@@ -23,3 +23,5 @@ console.log(calculator(5, "+", 10));
 console.log(calculator(25.5, "-", 3));
 console.log(calculator(22, "*", 7));
 console.log(calculator(30, "/", 3));
+
+export {};

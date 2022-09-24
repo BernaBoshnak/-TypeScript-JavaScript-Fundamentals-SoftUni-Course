@@ -14,3 +14,5 @@ function centuriesToMinutes(centuries: number) {
 
 centuriesToMinutes(1);
 centuriesToMinutes(5);
+
+export {};

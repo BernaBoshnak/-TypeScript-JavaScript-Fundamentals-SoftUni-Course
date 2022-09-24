@@ -17,3 +17,5 @@ function ages(age: number) {
 ages(20);
 ages(1);
 ages(100);
+
+export {};

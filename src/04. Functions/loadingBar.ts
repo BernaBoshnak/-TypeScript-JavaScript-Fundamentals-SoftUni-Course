@@ -12,3 +12,5 @@ function loadingBar(number: number) {
 loadingBar(30);
 loadingBar(50);
 loadingBar(100);
+
+export {};
