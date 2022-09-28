@@ -1,7 +1,7 @@
-interface Parts {
+type Parts = {
   engine: number;
   power: number;
-}
+};
 
 interface Vehicle {
   type: string;
