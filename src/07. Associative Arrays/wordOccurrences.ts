@@ -13,7 +13,9 @@ function wordOccurrences(array: string[]) {
     }
   });
 
-  const sorted = Array.from(words).sort((a, b) => b[1] - a[1]);
+  const sorted = Array.from(words).sort(
+    ([, countWordsA], [, countWordsB]) => countWordsB - countWordsA
+  );
 
   for (const [word, countWords] of sorted) {
     console.log(`${word} -> ${countWords} times`);
