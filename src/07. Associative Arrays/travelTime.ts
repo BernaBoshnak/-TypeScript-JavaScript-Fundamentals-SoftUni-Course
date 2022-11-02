@@ -40,18 +40,16 @@ function travelTime(array: Array<string>) {
   };
 
   const destination = generateDestination(array);
-  const sortedCountries = [...Object.keys(destination)].sort((a, b) =>
+  const sortedCountries = Object.keys(destination).sort((a, b) =>
     a.localeCompare(b)
   );
 
-  const townPrice = (obj: Info[]) => {
-    const result = [];
+  for (const infos of Object.values(destination)) {
+    infos.sort((a, b) => a.cost - b.cost);
+  }
 
-    for (const info of Object.values(obj)) {
-      result.push(`${info.town} -> ${info.cost}`);
-    }
-
-    return result.join(" ");
+  const townPrice = (infoArr: Info[]) => {
+    return infoArr.map((info) => `${info.town} -> ${info.cost}`).join(" ");
   };
 
   for (const country of sortedCountries) {
