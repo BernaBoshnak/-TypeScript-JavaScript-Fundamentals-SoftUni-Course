@@ -1,16 +1,16 @@
 function countStringOccurrences(text: string, word: string) {
-  const slitted = text.split(" ");
+  const slitted = text.split(' ')
 
-  let count = 0;
+  let count = 0
   for (const char of slitted) {
     if (char === word) {
-      count++;
+      count++
     }
   }
 
-  console.log(count);
+  console.log(count)
 }
 
-countStringOccurrences("This is a word and it also is a sentence", "is");
+countStringOccurrences('This is a word and it also is a sentence', 'is')
 
-export {};
+export {}

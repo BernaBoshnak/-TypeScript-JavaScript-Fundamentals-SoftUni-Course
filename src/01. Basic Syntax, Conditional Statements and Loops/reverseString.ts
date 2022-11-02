@@ -1,10 +1,10 @@
 function reverseString(input: string) {
-  const newWord = input.split("").reverse().join("");
-  console.log(newWord);
+  const newWord = input.split('').reverse().join('')
+  console.log(newWord)
 }
 
-reverseString("Hello");
-reverseString("SoftUni");
-reverseString("1234");
+reverseString('Hello')
+reverseString('SoftUni')
+reverseString('1234')
 
-export {};
+export {}

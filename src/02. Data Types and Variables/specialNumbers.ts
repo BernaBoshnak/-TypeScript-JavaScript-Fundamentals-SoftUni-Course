@@ -1,20 +1,20 @@
 function specialNumbers(number: number) {
-  const currentNum = number;
+  const currentNum = number
 
   for (let i = 1; i <= currentNum; i++) {
-    let digit = i;
-    let sum = 0;
+    let digit = i
+    let sum = 0
 
     while (digit > 0) {
-      sum += digit % 10;
-      digit = parseInt((digit / 10).toString(), 10);
+      sum += digit % 10
+      digit = parseInt((digit / 10).toString(), 10)
     }
-    const result = sum === 5 || sum === 7 || sum === 11;
-    result ? console.log(`${i} -> True`) : console.log(`${i} -> False`);
+    const result = sum === 5 || sum === 7 || sum === 11
+    result ? console.log(`${i} -> True`) : console.log(`${i} -> False`)
   }
 }
 
-specialNumbers(15);
-specialNumbers(24);
+specialNumbers(15)
+specialNumbers(24)
 
-export {};
+export {}

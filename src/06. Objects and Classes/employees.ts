@@ -1,42 +1,42 @@
 interface EmployeeData {
-  name: string;
-  personalNumber: number;
+  name: string
+  personalNumber: number
 }
 
 function employees(listEmployees: string[]) {
   class Employee implements EmployeeData {
-    name: EmployeeData["name"];
-    personalNumber: EmployeeData["personalNumber"];
+    name: EmployeeData['name']
+    personalNumber: EmployeeData['personalNumber']
     constructor(
-      name: EmployeeData["name"],
-      number: EmployeeData["personalNumber"]
+      name: EmployeeData['name'],
+      number: EmployeeData['personalNumber'],
     ) {
-      this.name = name;
-      this.personalNumber = number;
+      this.name = name
+      this.personalNumber = number
     }
 
     allListEmployees() {
-      return `Name: ${this.name} -- Personal Number: ${this.personalNumber}`;
+      return `Name: ${this.name} -- Personal Number: ${this.personalNumber}`
     }
   }
-  const personInfo: Array<Employee> = [];
+  const personInfo: Array<Employee> = []
 
   for (let i = 0; i < listEmployees.length; i++) {
-    const employeeName = listEmployees[i];
-    const personalNumber = listEmployees[i].length;
-    personInfo.push(new Employee(employeeName, personalNumber));
+    const employeeName = listEmployees[i]
+    const personalNumber = listEmployees[i].length
+    personInfo.push(new Employee(employeeName, personalNumber))
   }
 
   for (const person of personInfo) {
-    console.log(person.allListEmployees());
+    console.log(person.allListEmployees())
   }
 }
 
 employees([
-  "Silas Butler",
-  "Adnaan Buckley",
-  "Juan Peterson",
-  "Brendan Villarreal",
-]);
+  'Silas Butler',
+  'Adnaan Buckley',
+  'Juan Peterson',
+  'Brendan Villarreal',
+])
 
-export {};
+export {}

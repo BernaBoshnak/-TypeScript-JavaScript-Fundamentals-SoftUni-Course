@@ -1,9 +1,9 @@
 function printCharacters(text: string) {
   for (const char of text) {
-    console.log(char);
+    console.log(char)
   }
 }
 
-printCharacters("AWord");
+printCharacters('AWord')
 
-export {};
+export {}

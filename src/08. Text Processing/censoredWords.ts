@@ -1,11 +1,11 @@
 const censoredWords = (text: string, word: string) => {
   while (text.includes(word)) {
-    text = text.replace(word, "*".repeat(word.length));
+    text = text.replace(word, '*'.repeat(word.length))
   }
 
-  console.log(text);
-};
+  console.log(text)
+}
 
-censoredWords("A small sentence with some words", "small");
+censoredWords('A small sentence with some words', 'small')
 
-export {};
+export {}

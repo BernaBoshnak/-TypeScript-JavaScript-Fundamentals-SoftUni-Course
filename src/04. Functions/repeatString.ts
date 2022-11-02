@@ -1,13 +1,13 @@
 function repeatString(string: string, count: number) {
-  let result = "";
+  let result = ''
 
   for (let i = 0; i < count; i++) {
-    result += string;
+    result += string
   }
-  return result;
+  return result
 }
 
-console.log(repeatString("abc", 3));
-console.log(repeatString("String", 2));
+console.log(repeatString('abc', 3))
+console.log(repeatString('String', 2))
 
-export {};
+export {}

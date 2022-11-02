@@ -1,10 +1,10 @@
-type Group = "Business" | "Students" | "Regular";
-type DayOfWeek = "Friday" | "Saturday" | "Sunday";
+type Group = 'Business' | 'Students' | 'Regular'
+type DayOfWeek = 'Friday' | 'Saturday' | 'Sunday'
 type Prices = {
   [P in Lowercase<Group>]: {
-    [K in Lowercase<DayOfWeek>]: number;
-  };
-};
+    [K in Lowercase<DayOfWeek>]: number
+  }
+}
 
 const prices: Prices = {
   students: {
@@ -22,45 +22,45 @@ const prices: Prices = {
     saturday: 20,
     sunday: 22.5,
   },
-};
+}
 
 function vacation(group: number, typeOfGroup: Group, dayOfWeek: DayOfWeek) {
-  const lowerTypeOfGroup = typeOfGroup.toLowerCase() as Lowercase<Group>;
-  const lowerDayOfWeek = typeOfGroup.toLowerCase() as Lowercase<DayOfWeek>;
-  let totalPrice = group * prices[lowerTypeOfGroup][lowerDayOfWeek];
+  const lowerTypeOfGroup = typeOfGroup.toLowerCase() as Lowercase<Group>
+  const lowerDayOfWeek = typeOfGroup.toLowerCase() as Lowercase<DayOfWeek>
+  let totalPrice = group * prices[lowerTypeOfGroup][lowerDayOfWeek]
 
-  if (typeOfGroup === "Students") {
+  if (typeOfGroup === 'Students') {
     if (group >= 30) {
-      totalPrice -= totalPrice * (15 / 100);
+      totalPrice -= totalPrice * (15 / 100)
     }
-  } else if (typeOfGroup === "Business") {
+  } else if (typeOfGroup === 'Business') {
     switch (dayOfWeek) {
-      case "Friday":
+      case 'Friday':
         if (group >= 100) {
-          totalPrice = (group - 10) * 10.9;
+          totalPrice = (group - 10) * 10.9
         }
-        break;
-      case "Saturday":
+        break
+      case 'Saturday':
         if (group >= 100) {
-          totalPrice = (group - 10) * 15.6;
+          totalPrice = (group - 10) * 15.6
         }
-        break;
-      case "Sunday":
+        break
+      case 'Sunday':
         if (group >= 100) {
-          totalPrice = (group - 10) * 16;
+          totalPrice = (group - 10) * 16
         }
-        break;
+        break
     }
   } else {
     if (group >= 10 && group <= 20) {
-      totalPrice -= totalPrice * (5 / 100);
+      totalPrice -= totalPrice * (5 / 100)
     }
   }
 
-  console.log(`Total price: ${totalPrice.toFixed(2)}`);
+  console.log(`Total price: ${totalPrice.toFixed(2)}`)
 }
 
-vacation(30, "Business", "Sunday");
-vacation(40, "Regular", "Saturday");
+vacation(30, 'Business', 'Sunday')
+vacation(40, 'Regular', 'Saturday')
 
-export {};
+export {}

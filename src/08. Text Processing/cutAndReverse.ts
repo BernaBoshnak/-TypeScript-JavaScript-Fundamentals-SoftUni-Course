@@ -2,17 +2,17 @@ function cutAndReverse(letters: string) {
   return [
     letters
       .substring(0, letters.length / 2)
-      .split("")
+      .split('')
       .reverse()
-      .join(""),
+      .join(''),
     letters
       .substring(letters.length / 2)
-      .split("")
+      .split('')
       .reverse()
-      .join(""),
-  ].join("\n");
+      .join(''),
+  ].join('\n')
 }
 
-console.log(cutAndReverse("tluciffiDsIsihTgnizamAoSsIsihT"));
+console.log(cutAndReverse('tluciffiDsIsihTgnizamAoSsIsihT'))
 
-export {};
+export {}
