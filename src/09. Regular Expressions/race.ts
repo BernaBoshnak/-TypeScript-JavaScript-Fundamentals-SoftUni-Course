@@ -53,4 +53,4 @@ console.log(
   ]),
 )
 
-// export {}
+export {}
