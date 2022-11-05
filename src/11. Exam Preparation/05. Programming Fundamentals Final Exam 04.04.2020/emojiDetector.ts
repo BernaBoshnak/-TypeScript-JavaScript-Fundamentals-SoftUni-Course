@@ -28,7 +28,7 @@ function emojiDetector(input: Array<string>) {
       }
     }
   }
-  
+
   console.log(`${count} emojis found in the text. The cool ones are:`)
   result.forEach((emoji) => console.log(emoji))
 }
