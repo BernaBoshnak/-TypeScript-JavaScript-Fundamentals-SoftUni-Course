@@ -27,8 +27,9 @@ function pianist(input: Array<string>) {
   }
 
   input.forEach((line) => {
+    type Commands = 'Add' | 'Remove' | 'ChangeKey'
     const info = line.split('|')
-    const [command, piece, composer] = info
+    const [command, piece, composer] = info as [Commands, string, string]
     const key = info.length < 4 ? info[2] : info[3]
 
     switch (command) {
