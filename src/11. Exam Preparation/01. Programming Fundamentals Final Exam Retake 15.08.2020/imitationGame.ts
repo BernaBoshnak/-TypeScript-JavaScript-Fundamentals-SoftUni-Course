@@ -50,4 +50,4 @@ imitationGame([
   'Decode',
 ])
 
-// export {}
+export {}
